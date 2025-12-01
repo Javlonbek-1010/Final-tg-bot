@@ -1,0 +1,31 @@
+{
+  "name": "final-tg-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javlonbek-1010/Final-tg-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Javlonbek-1010/Final-tg-bot/issues"
+  },
+  "homepage": "https://github.com/Javlonbek-1010/Final-tg-bot#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mongoose": "^9.0.0",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
