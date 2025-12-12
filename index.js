@@ -1,8 +1,8 @@
 import "./src/bot/bot.js";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
+import "./src/bot/handlers/message/onCommands.js"
 
-// .env configured
 dotenv.config();
 
 async function connectDb() {
